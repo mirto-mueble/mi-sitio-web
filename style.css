@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #795548;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+section.bienvenida {
+  text-align: center;
+  padding: 2em;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 1em;
+  background-color: #a1887f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 2em;
+}
+
+.producto {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 250px;
+  padding: 1em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.producto a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #795548;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #d7ccc8;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
